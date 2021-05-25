@@ -1,3 +1,85 @@
 body {
   background-color: #d0e2ff;
 }
+
+.test {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 1.19;
+  letter-spacing: 0;
+  font-size: calc(2.625rem + 0 * ((100vw - 20rem) / 22) );
+}
+@media (min-width: 42rem) {
+  .test {
+    font-size: 2.625rem;
+    font-size: calc(2.625rem + 0.75 * ((100vw - 42rem) / 24) );
+  }
+}
+@media (min-width: 66rem) {
+  .test {
+    font-size: 3.375rem;
+    font-size: calc(3.375rem + 0.375 * ((100vw - 66rem) / 16) );
+  }
+}
+@media (min-width: 82rem) {
+  .test {
+    font-size: 3.75rem;
+    line-height: 1.16;
+    font-size: calc(3.75rem + 1 * ((100vw - 82rem) / 17) );
+  }
+}
+@media (min-width: 99rem) {
+  .test {
+    font-size: 4.75rem;
+    line-height: 1.13;
+    font-size: 4.75rem;
+  }
+}
+
+.productive_heading_1 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: 0.16px;
+}
+
+.display01 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.625rem;
+  font-weight: 300;
+  line-height: 1.19;
+  letter-spacing: 0;
+}
+
+.display02 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 1.19;
+  letter-spacing: 0;
+}
+
+.display03 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.625rem;
+  font-weight: 300;
+  line-height: 1.19;
+  letter-spacing: 0;
+}
+
+.display04 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 1.19;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0;
+}

@@ -1,8 +1,56 @@
+// $feature-flags: (
+//   grid-columns-16: true,
+// );
+
+// @import "carbon-components/scss/globals/grid/grid";
 @import "carbon-components/scss/globals/scss/colors";
 // @import 'carbon-components/scss/globals/scss/css--reset';
 // @import "carbon-components/scss/globals/scss/styles"; // this one brings all the styles which is not required
+// @import "carbon-components/scss/globals/scss/colors";
+@import "@carbon/type/scss/type";
+// @import "@carbon/type/scss/font-face/mono";
+// @import "@carbon/type/scss/font-face/sans";
+// @import "@carbon/type/scss/scale";
 
+// @include carbon--type-reset();
+// @include carbon--font-face-mono();
+// @include carbon--font-face-sans();
 // I want to override the defaults and replace the fonts.
 body {
   background-color: $blue-20;
+}
+
+// .scale {
+//   @include carbon--type-scale(1);
+// }
+
+.test {
+  @include carbon--font-family("sans");
+  @include carbon--type-style("display-02", true);
+}
+
+.productive_heading_1 {
+  @include carbon--type-style("productive-heading-01");
+}
+
+.display01 {
+  @include carbon--font-family("sans");
+  @include carbon--type-style("display-01");
+}
+.display02 {
+  @include carbon--font-family("sans");
+  @include carbon--type-style("display-02");
+}
+.display03 {
+  @include carbon--font-family("sans");
+  @include carbon--type-style("display-03");
+}
+.display04 {
+  @include carbon--font-family("sans");
+  @include carbon--type-style("display-04");
+}
+
+h2 {
+  @include carbon--font-family("sans");
+  @include carbon--type-style("expressive-heading-06");
 }

@@ -1,0 +1,8 @@
+@import "carbon-components/scss/globals/scss/colors";
+// @import 'carbon-components/scss/globals/scss/css--reset';
+// @import "carbon-components/scss/globals/scss/styles"; // this one brings all the styles which is not required
+
+// I want to override the defaults and replace the fonts.
+body {
+  background-color: $blue-20;
+}
